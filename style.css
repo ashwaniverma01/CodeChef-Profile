@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #7B241C;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.search-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    max-width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.profile-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.profile-section img {
+    max-width: 100px;
+    margin: 10px;
+}
+
+#error-message {
+    color: red;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    input[type="text"] {
+        width: 100%;
+        margin-right: 50px;
+    }
+
+    .profile-section img {
+        max-width: 80px;
+    }
+}

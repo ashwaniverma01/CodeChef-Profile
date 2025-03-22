@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeChef Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>CodeChef Profile Viewer</h1>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <input type="text" id="username" placeholder="Enter your CodeChef username">
+            <button id="btn">Get Profile</button>
+        </section>
+
+        <section id="profile" class="profile-section">
+            <img src="" alt="" id="avatar">
+            <img src="" alt="" id="country">
+            <p>Name: <span id="name"></span></p>
+            <p>Rating: <span id="rating"></span></p>
+            <p>Stars: <span id="stars"></span></p>
+            <p>Country Rank: <span id="countryRank"></span></p>
+            <p>Global Rank: <span id="globalRank"></span></p>
+        </section>
+        <div class="msg">
+            <p id="error-message"></p> <!-- Error message display -->
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2023 CodeChef Profile Viewer. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
